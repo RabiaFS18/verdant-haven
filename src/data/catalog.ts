@@ -46,7 +46,15 @@ export type ImageKey =
   | "weeping-fig"
   | "ponytail-palm"
   | "bamboo-palm"
-  | "calathea";
+  | "calathea"
+  | "zz-plant"
+  | "peace-lily"
+  | "bougainvillea"
+  | "marigold-seeds"
+  | "sunflower-seeds"
+  | "tulsi"
+  | "cosmos"
+  | "coriander";
 
 export type CatalogEntry = {
   slug: string;
@@ -393,6 +401,7 @@ export const catalog: CatalogEntry[] = [
     light: "Low to medium",
     water: "Every 2–3 weeks",
     stock: 25,
+    imageKey: "zz-plant",
     lightLevel: "low",
     careLevel: "easy",
     petSafe: false,
@@ -406,6 +415,7 @@ export const catalog: CatalogEntry[] = [
     light: "Low to medium indirect",
     water: "Weekly, keep lightly moist",
     stock: 25,
+    imageKey: "peace-lily",
     lightLevel: "low",
     careLevel: "moderate",
     petSafe: false,
@@ -461,6 +471,7 @@ export const catalog: CatalogEntry[] = [
     light: "Full sun",
     water: "Twice weekly",
     stock: 25,
+    imageKey: "bougainvillea",
     tag: "Flowering",
     lightLevel: "bright",
     careLevel: "easy",
@@ -520,6 +531,7 @@ export const catalog: CatalogEntry[] = [
     light: "Full sun",
     water: "Keep moist until sprouted",
     stock: 25,
+    imageKey: "marigold-seeds",
     tag: "Seeds",
   },
   {
@@ -531,6 +543,7 @@ export const catalog: CatalogEntry[] = [
     light: "Full sun",
     water: "Water regularly",
     stock: 25,
+    imageKey: "sunflower-seeds",
     tag: "Seeds",
   },
   {
@@ -542,6 +555,7 @@ export const catalog: CatalogEntry[] = [
     light: "Sun to partial sun",
     water: "Keep evenly moist",
     stock: 25,
+    imageKey: "tulsi",
     tag: "Seeds",
   },
   {
@@ -553,6 +567,7 @@ export const catalog: CatalogEntry[] = [
     light: "Full sun",
     water: "Water moderately",
     stock: 25,
+    imageKey: "cosmos",
     tag: "Seeds",
   },
   {
@@ -564,6 +579,7 @@ export const catalog: CatalogEntry[] = [
     light: "Sun to partial sun",
     water: "Keep evenly moist",
     stock: 25,
+    imageKey: "coriander",
     tag: "Seeds",
   },
   // --- Common local plants. Prices are starting points; set your own. ---

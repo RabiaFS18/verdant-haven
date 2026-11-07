@@ -1,4 +1,12 @@
 import snakePlant from "@/assets/real-plants/snake-plant.webp";
+import zzPlant from "@/assets/real-plants/zz-plant.webp";
+import peaceLily from "@/assets/real-plants/peace-lily.webp";
+import bougainvillea from "@/assets/real-plants/bougainvillea.webp";
+import marigoldSeeds from "@/assets/real-plants/marigold-seeds.webp";
+import sunflowerSeeds from "@/assets/real-plants/sunflower-seeds.webp";
+import tulsi from "@/assets/real-plants/tulsi.webp";
+import cosmos from "@/assets/real-plants/cosmos.webp";
+import coriander from "@/assets/real-plants/coriander.webp";
 import moneyPlant from "@/assets/real-plants/money-plant.webp";
 import fanPalm from "@/assets/real-plants/fan-palm.webp";
 import monstera from "@/assets/real-plants/monstera.webp";
@@ -57,6 +65,14 @@ const images: Record<ImageKey, string> = {
   lemon: lemon,
   "snake-plant": snakePlant,
   "money-plant": moneyPlant,
+  "zz-plant": zzPlant,
+  "peace-lily": peaceLily,
+  bougainvillea: bougainvillea,
+  "marigold-seeds": marigoldSeeds,
+  "sunflower-seeds": sunflowerSeeds,
+  tulsi: tulsi,
+  cosmos: cosmos,
+  coriander: coriander,
   aglaonema: aglaonema,
   "rubber-plant": rubberPlant,
   "aloe-vera": aloeVera,
