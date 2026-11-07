@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1789944103609,
+      "tag": "0000_verdant_haven_shop_schema",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1790030503609,
+      "tag": "0001_pkr_catalog_and_checkout",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1790116903609,
+      "tag": "0002_admin_panel",
+      "breakpoints": true
+    }
+  ]
+}
